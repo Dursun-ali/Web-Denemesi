@@ -1,0 +1,313 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@100&family=Rubik+Vinyl&display=swap");
+*/
+/* base css start  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 10%;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 2.5rem;
+}
+
+.navbar {
+  height: 6rem;
+  color: rgb(255, 255, 255);
+  position: sticky;
+  top:0px;
+  z-index: 999999;
+
+}
+
+/* base css end  */
+.main-container{
+width: 100%;
+position: sticky;
+top: 0px;
+height: 300vh;
+
+}
+
+
+.logo {
+  color: rgb(255, 255, 255);
+  font-size: 3.4rem;
+
+}
+
+
+body {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Vinyl", cursive;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 5rem;
+  background-color: rgb(222, 59, 59);
+}
+.menu-list {
+  display: flex;
+  column-gap: 3rem;
+  cursor: pointer;
+}
+
+
+.menu-list .active{
+ font-weight: bold; 
+}
+
+.menu-list-item:hover{
+  font-weight: bold;
+}
+
+.menu-list-item{
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.profile-container{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  scale: 1.3;
+}
+
+
+.profile-picture{
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-text{
+  font-size: 1.4rem;
+  font-weight: bol;
+}
+
+.profile{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.profile option{
+  color: lightslategray;
+}
+
+
+.container .profile-photo{
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 50%; 
+    position: relative;
+    bottom: 6.5rem;
+    border: 0.5rem solid rgb(225, 225, 225) ;
+}
+.container-profile{
+  display: flex;
+  justify-content: center;
+}
+.item1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #fff;
+  padding: 2.5rem;
+  position: relative;
+  margin-top:30rem ;
+  
+}
+.item1 p {
+  margin:0.6rem 5%;
+  font-size: 1.1rem;
+  width: 90%;
+  color: rgb(76, 76, 76);
+  
+}
+ .profile-title{
+  color: rgb(222, 59, 59);
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: 0.3rem solid rgb(222, 59, 59);
+  margin: 0 5%;
+  width: 90%;
+ }
+.hayat{
+  width: 90%;
+  margin:0 5%;
+  color: rgb(76, 76, 76);
+}
+
+.item2-photo{
+  width: 100%;
+  height: 30rem;
+  
+}
+
+.kücük-foto{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 1rem 1.5rem 1rem 1rem;
+  border: 0.2rem solid rgb(251, 58, 58);
+  
+
+}
+.small-container{
+  display: flex;
+  align-items: center;
+  
+}
+
+.small-container .hesap-ad{
+width: 6rem;
+}
+
+.small-container a{
+  border-radius: 0.6rem;
+
+ 
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+  background-color:rgb(215, 215, 215);
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+
+.gonderi-foto{
+  width: 100%;
+  height: 35rem;
+}
+
+.son{
+  margin-left: 60rem;
+  display: flex;
+  width: 10rem;
+}
+
+.son a{
+  padding: 0.7rem;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
+
+.son .icon1{
+  display: flex;
+  align-items: center;
+}
+.alt-icon{
+  width: 100%;
+  height: 3rem;
+  font-size: 1.4rem;
+}
+
+.son-icon{
+  margin-left: 62rem;
+  position: relative;
+  bottom: 0.1 rem;
+  
+}
+
+.icon-a{
+margin: 0 0.5rem;
+}
+.icon-b{
+  margin: 0 0.5rem;
+}
+.icon-c{
+  margin: 0 0.5rem;
+}
+.post{
+  margin: 2rem 0;
+  background-color: #fff;
+  border-radius: 1.4rem;
+}
+
+.small-navbar{
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  border: 0.1rem solid gray;
+  column-gap: 0.2rem;
+  font-size: 0.8rem;
+ 
+}
+.bolum{
+  width: 100%;
+  height: 6rem;
+  border: 0.1rem solid gray;
+  display: flex;
+  align-items: center;
+
+}
+.bolum img{
+  width: 3rem;
+  height: 3rem;
+  margin-left: 0.5rem;
+  border: 0.1rem solid black;
+  border-radius: 2rem;
+}
+
+.bolum-alt{
+  display: flex;
+  border: 0.1rem solid gray;
+  width: 100%;
+  height: 3rem;
+  align-items: center;
+}
+
+ .bolum-alt-2{
+  
+  
+  width: 40%;
+  border: 0.1rem solid gray;
+  border-radius: 0.2rem;
+  font-size: 0.5rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.2rem;
+  height: 1.4rem;
+  justify-content: center;
+}
+
+.bolum-alt-3{
+  width: 30%;
+  height: 1.3rem;
+  background-color: rgb(67, 67, 255);
+  color: #fff;
+  border: 0.1rem solid rgb(0, 0, 150);
+  display: flex;
+  align-items: center;
+  border-radius: 0.1rem;
+  padding: 0.2rem;
+  margin-left: 2rem;
+}
+
+.ana{
+  margin-top: 5rem;
+}
+
